@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #111;
+  color: white;
+}
+
+.sh {font-size: 72px;
+  color: #ff841f;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(237,114,13),
+               1px 1px 0 rgb(219,96,0),
+               2px 2px 0 rgb(201,78,0),
+               3px 3px 0 rgb(182,59,0),
+               4px 4px 0 rgb(164,41,0),
+               5px 5px 0 rgb(146,23,0),
+               6px 6px 0 rgb(128,5,0),
+               7px 7px  0 rgb(110,-13,0),
+               8px 8px 7px rgba(0,0,0,0.99),
+               8px 8px 1px rgba(0,0,0,0.5),
+               0px 0px 7px rgba(0,0,0,.2);
+}
+
+/* .icon {
+  animation: rotateIcon 40s linear infinite; 
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
