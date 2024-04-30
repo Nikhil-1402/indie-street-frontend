@@ -4,8 +4,8 @@ const Landing = () => {
   return (
     <div className="coming_soon w-full h-[34rem] flex justify-center items-center flex-col text-center">
       <div className="inner-cs flex justify-center items-center flex-col bg-[#111]">
-      <p className=" lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-semibold mb-8 sh text-center">Coming Soon!</p>
-      <p className=" md:text-xl sm:text-lg text-sm mb-8 w-[80%]">
+      <p className=" lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-semibold md:mb-8 mb-4 sh text-center">Coming Soon!</p>
+      <p className=" md:text-xl sm:text-lg text-sm md:mb-8 mb-4 w-[80%]">
         Unique Finds for Your Unique Style: Handmade and Handpicked for You!
       </p>
       {/*  hover:bg-[#ff841f] */}
